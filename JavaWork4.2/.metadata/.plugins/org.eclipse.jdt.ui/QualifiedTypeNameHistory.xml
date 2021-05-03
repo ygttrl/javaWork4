@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Abstruct.IEntity"/>
+    <fullyQualifiedTypeName name="Abstruct.ICustomerService"/>
+    <fullyQualifiedTypeName name="sun.util.calendar.BaseCalendar"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="Entities.Customer"/>
+    <fullyQualifiedTypeName name="AbstructCheckService.IPerson"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="Concreate.SturbucksCustomerManager"/>
+    <fullyQualifiedTypeName name="Abstruct.ICustomerCheckService"/>
+    <fullyQualifiedTypeName name="Concreate.CustomerCheckManager"/>
+    <fullyQualifiedTypeName name="Abstruct.BaseCustomerManager"/>
+    <fullyQualifiedTypeName name="Concreate.NeroCustomerManager"/>
+</qualifiedTypeNameHistroy>

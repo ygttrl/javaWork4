@@ -1,0 +1,13 @@
+import Abstruct.BaseCustomerManager;
+import Concreate.SturbucksCustomerManager;
+import Entities.Customer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		 
+		BaseCustomerManager customerManager = new SturbucksCustomerManager();
+		customerManager.Save(new Customer(1,"Engin","Demiroð",));
+	}
+
+}

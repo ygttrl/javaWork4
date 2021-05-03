@@ -1,0 +1,9 @@
+package Abstruct;
+
+import Entities.Customer;
+
+public interface ICustomerCheckService {
+	
+   bool	CheckIfRealPerson(Customer customer);
+     
+}

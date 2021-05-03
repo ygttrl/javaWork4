@@ -1,0 +1,17 @@
+import java.time.LocalDate;
+
+import Abstruct.BaseCustomerManager;
+import Abstruct.ICustomerCheckService;
+import Concreate.CustomerCheckManager;
+import Concreate.SturbucksCustomerManager;
+import Entities.Customer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		CustomerCheckManager  checkManager = new CustomerCheckManager();
+		BaseCustomerManager customerManager = new SturbucksCustomerManager(checkManager);
+		customerManager.Save(new Customer(1,"Engin","Demiroð",LocalDate.now(),"28881321832"));
+	}
+
+}

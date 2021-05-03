@@ -1,0 +1,9 @@
+import java.time.LocalDateTime;
+
+public class Customer {
+	private int Id;
+	private String FirstName;
+	private String LastName;
+	private LocalDateTime DateofBirth;
+	private String NationalityId;
+}

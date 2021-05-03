@@ -1,0 +1,23 @@
+import java.time.LocalDate;
+
+import Abstruct.BaseCustomerManager;
+import Abstruct.ICustomerCheckService;
+import Concreate.SturbucksCustomerManager;
+import Entities.Customer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		BaseCustomerManager customerManager = new SturbucksCustomerManager( new ICustomerCheckService() {
+			
+			@Override
+			public boolean CheckIfRealPerson(Customer customer) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+		});
+		customerManager.Save(new Customer(1,"Engin","Demiroð",LocalDate.now(),"28881321832"));
+	}
+
+}

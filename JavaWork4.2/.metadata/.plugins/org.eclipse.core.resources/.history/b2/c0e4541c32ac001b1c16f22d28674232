@@ -1,0 +1,9 @@
+package AbstructCheckService;
+
+import Entities.Customer;
+
+public interface IPerson {
+	
+	void ChaeckIfRealPerson(Customer customer );
+	
+}

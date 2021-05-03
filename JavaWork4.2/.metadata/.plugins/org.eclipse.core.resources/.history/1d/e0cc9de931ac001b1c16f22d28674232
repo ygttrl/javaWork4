@@ -1,0 +1,5 @@
+package AbstructCheckService;
+
+public interface IPerson {
+  
+}

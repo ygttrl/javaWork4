@@ -1,0 +1,19 @@
+package Concreate;
+
+import Abstruct.BaseCustomerManager;
+import AbstructCheckService.IPerson;
+import Entities.Customer;
+
+public class SturbucksCustomerManager extends BaseCustomerManager implements IPerson {
+	
+	@Override
+	public void Save(Customer customer) {
+		System.out.println("Saved to db :" + customer.getFirstName());		
+	}
+	
+	public void ChaeckIfRealPerson(Customer customer ) 
+	{
+		 
+	}
+	
+}
